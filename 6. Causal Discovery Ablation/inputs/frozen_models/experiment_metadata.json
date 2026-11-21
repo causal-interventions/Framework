@@ -1,0 +1,51 @@
+{
+  "seed": 20260906,
+  "threshold_method": "f1",
+  "thresholds": {
+    "XGBoost": 0.37999999999999984,
+    "RandomForest": 0.37999999999999984,
+    "GBM": 0.3649999999999998,
+    "CatBoost": 0.37999999999999984
+  },
+  "models": [
+    "XGBoost",
+    "RandomForest",
+    "GBM",
+    "CatBoost"
+  ],
+  "model_files": {
+    "XGBoost": "XGBoost.joblib",
+    "RandomForest": "RandomForest.joblib",
+    "GBM": "GBM.joblib",
+    "CatBoost": "CatBoost.joblib"
+  },
+  "catboost_native_categoricals": [
+    "Gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "catboost_numeric_columns": [
+    "SeniorCitizen",
+    "Tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "catboost_numeric_medians": {
+    "SeniorCitizen": 0.0,
+    "Tenure": 28.0,
+    "MonthlyCharges": 70.2,
+    "TotalCharges": 1377.7
+  }
+}
