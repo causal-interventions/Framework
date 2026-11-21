@@ -290,4 +290,4 @@ This repository accompanies a research manuscript describing the proposed causal
 
 ## License
 
-A repository license has not yet been specified. The original dataset and third-party software remain subject to their respective terms and licenses.
+The original dataset and third-party software remain subject to their respective terms and licenses.
