@@ -276,7 +276,7 @@ flowchart TD
 - Before executing a notebook, check its file-path configuration. Some notebooks expect input files and model directories in the current working directory rather than in the adjacent `inputs/` or `dataset/` directories. Adjust paths or arrange local working copies accordingly.
 - To reproduce the comparative predictive evaluation without retraining, use the supplied frozen models, metadata, and recommended-action workbooks.
 - To reproduce the statistical analysis without rerunning intervention simulations, use the supplied intervention results workbook in `5. Statistical Evaluation/inputs/`.
-- New LLM API calls may generate different recommendations and depend on model availability. Do not commit API keys to the repository.
+- New LLM API calls may generate different recommendations and depend on model availability. 
 
 ## Interpretation of Results
 
